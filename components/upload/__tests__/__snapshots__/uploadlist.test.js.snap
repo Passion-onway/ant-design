@@ -114,54 +114,20 @@ exports[`Upload List itemRender 1`] = `
   <div
     class="ant-upload-list-text-container"
   >
-    <div
+    <span
       class="custom-item-render"
     >
-      <span>
-        uid:-1 name: xxx.png status: removed url: https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png  1/2
-      </span>
-      <span
-        class="custom-item-render-action-remove"
-      >
-        remove
-      </span>
-      <span
-        class="custom-item-render-action-download"
-      >
-        download
-      </span>
-      <span
-        class="custom-item-render-action-preview"
-      >
-        preview
-      </span>
-    </div>
+      uid:-1 name: xxx.png status: removed url: https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png  1/2
+    </span>
   </div>
   <div
     class="ant-upload-list-text-container"
   >
-    <div
+    <span
       class="custom-item-render"
     >
-      <span>
-        uid:-2 name: yyy.png status: removed url: https://zos.alipayobjects.com/rmsportal/IQKRngzUuFzJzGzRJXUs.png  2/2
-      </span>
-      <span
-        class="custom-item-render-action-remove"
-      >
-        remove
-      </span>
-      <span
-        class="custom-item-render-action-download"
-      >
-        download
-      </span>
-      <span
-        class="custom-item-render-action-preview"
-      >
-        preview
-      </span>
-    </div>
+      uid:-2 name: yyy.png status: removed url: https://zos.alipayobjects.com/rmsportal/IQKRngzUuFzJzGzRJXUs.png  2/2
+    </span>
   </div>
 </div>
 `;

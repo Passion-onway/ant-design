@@ -272,13 +272,7 @@ const ListItem = React.forwardRef(
 
     return (
       <div className={listContainerNameClass} style={style} ref={ref}>
-        {itemRender
-          ? itemRender(item, file, items, {
-              download: onDownload.bind(null, file),
-              preview: onPreview.bind(null, file),
-              remove: onClose.bind(null, file),
-            })
-          : item}
+        {itemRender ? itemRender(item, file, items) : item}
       </div>
     );
   },

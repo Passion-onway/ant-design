@@ -100,24 +100,7 @@ describe('Upload.typescript', () => {
       },
     ];
     const upload = (
-      <Upload fileList={fileList} defaultFileList={fileList} />
-    )
-    expect(upload).toBeTruthy();
-  });
-  it('itemRender', () => {
-    const upload = (
-      <Upload
-        itemRender={(node, file, list, actions) => (
-          <div>
-            {node}
-            {file.name}
-            {list.length}
-            <span onClick={actions.remove}>remove</span>
-            <span onClick={actions.download}>download</span>
-            <span onClick={actions.preview}>preview</span>
-          </div>
-        )}
-      >
+      <Upload fileList={fileList} defaultFileList={fileList}>
         <span>click to upload</span>
       </Upload>
     );
